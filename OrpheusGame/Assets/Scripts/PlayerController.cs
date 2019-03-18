@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = .01f;
     public Animator animator;
     // Start is called before the first frame update
     void Start()
@@ -16,6 +15,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        transform.Translate(moveSpeed, 0, 0);
+        transform.Translate(Globals.instance.moveSpeed, 0, 0);
     }
 }
