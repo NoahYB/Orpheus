@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        transform.Translate(Globals.instance.moveSpeed, 0, 0);
+    
     }
 }

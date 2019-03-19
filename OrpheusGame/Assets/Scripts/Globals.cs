@@ -22,8 +22,8 @@ public class Globals : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
     public string musicKey = "c_major";
-    public float moveSpeed = .01f;
     public int tempo = 80;
 
     public bool streamerMode = false;
