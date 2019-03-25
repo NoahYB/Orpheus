@@ -20,7 +20,7 @@ public class PlatformGenerator : MonoBehaviour
     {
         if (startingPlatform != null)
         {
-            startingPlatform.transform.Translate(-0.1f, 0, 0);
+            //startingPlatform.transform.Translate(-0.1f, 0, 0);
         }
     }
 }
