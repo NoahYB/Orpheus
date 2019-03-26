@@ -33,11 +33,11 @@ public class PlayerController : MonoBehaviour
 
         rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
 
-        if (Input.GetKeyDown(KeyCode.Space) && Physics2D.IsTouchingLayers(playerCollider,ground))
-        {
+        //if (Input.GetKeyDown(KeyCode.Space) && Physics2D.IsTouchingLayers(playerCollider,ground))
+        //{
 
-            Jump();
-        }
+        //    Jump();
+        //}
     }
 
 
