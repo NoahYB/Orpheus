@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-/Users/hectormeredith/Desktop/OrpheusBuilds/README.md/Orpheus.exe
+/Users/hectormeredith/Desktop/OrpheusBuilds/Windows/OrpheusWindows0.2/Orpheus.exe
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
@@ -120,7 +120,7 @@ b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
-8d98c5a51d2cf744e6a67f360760f0a4 Assembly-CSharp.dll:.NoteHandler
+cd37ccbb675c659ebe8eaff411326fc3 Assembly-CSharp.dll:.NoteHandler
 e6a6d7443d354fb93103ad992218cb06 Assembly-CSharp.dll:.Globals
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
