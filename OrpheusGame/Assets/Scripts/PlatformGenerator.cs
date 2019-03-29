@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlatformGenerator : MonoBehaviour
 {
+    public GameObject longPlatform;
+    public GameObject mediumPlatform;
+    public GameObject shortPlatform;
     public float moveSpeed = 0.1f;
     public float maxDistance;
     public float distanceBetweenPlatforms;
@@ -11,27 +14,61 @@ public class PlatformGenerator : MonoBehaviour
     public GameObject currPlatform;
     public GameObject currPlatform2;
     public GameObject startingPlatform;
+    GameObject gOToInstantiate;
+    GameObject newPlatform;
+    List<GameObject> gOToDestroy = new List<GameObject>();
     float y;
     // Start is called before the first frame update
     void Start()
     {
+        newPlatform = Instantiate(longPlatform);
         y = currPlatform.transform.position.y;
+        newPlatform.transform.position = new Vector3(player.transform.position.x + 5 + distanceBetweenPlatforms, y, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(currPlatform.transform.position.x < player.transform.position.x - maxDistance)
+        if(newPlatform.transform.position.x < player.transform.position.x)
         {
-            Debug.Log("here");
-            float copyX = currPlatform2.transform.position.x;
-            currPlatform.transform.position = new Vector3(copyX+distanceBetweenPlatforms,y,0);
-        }
-        if (currPlatform2.transform.position.x < player.transform.position.x - maxDistance)
-        {
-            Debug.Log("here");
-            float copyX = currPlatform.transform.position.x;
-            currPlatform2.transform.position = new Vector3(copyX + distanceBetweenPlatforms, y, 0);
+            int tier = Random.Range(1, 4);
+            int size = Random.Range(1, 4);
+
+            switch (tier)
+            {
+                case 1:
+                    y = -2f;
+                    break;
+                case 2:
+                    y = 0f;
+                    break;
+                case 3:
+                    y = 2f;
+                    break;
+            }
+            switch (size)
+            {
+                case 1:
+                    gOToInstantiate = shortPlatform;
+                    break;
+                case 2:
+                    gOToInstantiate = mediumPlatform;
+                    break;
+                case 3:
+                    gOToInstantiate = longPlatform;
+                    break;
+            }
+            gOToDestroy.Add(newPlatform);
+            newPlatform = Instantiate(gOToInstantiate);
+            newPlatform.transform.position = new Vector3(player.transform.position.x+ distanceBetweenPlatforms,y,0);
+            if (gOToDestroy.Count > 4)
+            {
+                Debug.Log('l');
+
+                Destroy(gOToDestroy[0]);
+                gOToDestroy.RemoveAt(0);
+
+            }
         }
     }
 }
