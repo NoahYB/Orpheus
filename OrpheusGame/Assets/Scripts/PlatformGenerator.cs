@@ -16,6 +16,7 @@ public class PlatformGenerator : MonoBehaviour
     public GameObject startingPlatform;
     GameObject gOToInstantiate;
     GameObject newPlatform;
+    public GameObject item;
     List<GameObject> gOToDestroy = new List<GameObject>();
     float y;
     // Start is called before the first frame update
@@ -33,6 +34,7 @@ public class PlatformGenerator : MonoBehaviour
         {
             int tier = Random.Range(1, 4);
             int size = Random.Range(1, 4);
+            int itemChance = Random.Range(1, 10);
 
             switch (tier)
             {
@@ -61,6 +63,11 @@ public class PlatformGenerator : MonoBehaviour
             gOToDestroy.Add(newPlatform);
             newPlatform = Instantiate(gOToInstantiate);
             newPlatform.transform.position = new Vector3(player.transform.position.x+ distanceBetweenPlatforms,y,0);
+            if (itemChance > 7)
+            {
+                GameObject newItem = Instantiate(item);
+                newItem.transform.position = newPlatform.transform.position + new Vector3(1, 3, 0);
+            }
             if (gOToDestroy.Count > 4)
             {
                 Debug.Log('l');

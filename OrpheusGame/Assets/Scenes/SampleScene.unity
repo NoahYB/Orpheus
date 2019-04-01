@@ -469,7 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67caf21e887a748289330583d335b36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  longPlatform: {fileID: 3296964798523731084, guid: d849aff4b749746119c38f8cabea98f3,
+  longPlatform: {fileID: 7107057890146268973, guid: abe98b7e202ce4f12bbbdcbf13ba04a0,
     type: 3}
   mediumPlatform: {fileID: 3296964798523731084, guid: 3e97a3c0a5c72484b958f76882349a51,
     type: 3}
@@ -482,6 +482,7 @@ MonoBehaviour:
   currPlatform: {fileID: 603766125}
   currPlatform2: {fileID: 0}
   startingPlatform: {fileID: 0}
+  item: {fileID: 8457575315318369420, guid: 8116ea2d4d5a34d97bbcc74dee454aa1, type: 3}
 --- !u!4 &435773962
 Transform:
   m_ObjectHideFlags: 0
