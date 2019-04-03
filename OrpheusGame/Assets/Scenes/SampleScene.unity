@@ -898,6 +898,8 @@ GameObject:
   m_Component:
   - component: {fileID: 920572307}
   - component: {fileID: 920572306}
+  - component: {fileID: 920572309}
+  - component: {fileID: 920572308}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -934,6 +936,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &920572308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920572305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8828e3472e14a4ef9a1bd0f740dd0b1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tc: {fileID: 920572309}
+--- !u!114 &920572309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920572305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc38ea49f5628443bb2478cf9859c885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1202738358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,7 +1078,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c30091ca99c6459b942f8dbc5a96280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   text: {fileID: 1595462049}
+=======
+  text: {fileID: 0}
+>>>>>>> d31bdec17238f256b90b1b417a083eedd0fb7012
   jump: {x: 0, y: 0, z: 0}
   jumpVelocity: 9
   moveSpeed: 5
