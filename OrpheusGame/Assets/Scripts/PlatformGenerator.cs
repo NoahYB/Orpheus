@@ -18,6 +18,7 @@ public class PlatformGenerator : MonoBehaviour
     GameObject newPlatform;
     public GameObject item;
     List<GameObject> gOToDestroy = new List<GameObject>();
+
     float y;
     // Start is called before the first frame update
     void Start()
@@ -26,7 +27,6 @@ public class PlatformGenerator : MonoBehaviour
         y = currPlatform.transform.position.y;
         newPlatform.transform.position = new Vector3(player.transform.position.x + 5 + distanceBetweenPlatforms, y, 0);
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -65,8 +65,8 @@ public class PlatformGenerator : MonoBehaviour
             newPlatform.transform.position = new Vector3(player.transform.position.x+ distanceBetweenPlatforms,y,0);
             if (itemChance > 7)
             {
-                GameObject newItem = Instantiate(item);
-                newItem.transform.position = newPlatform.transform.position + new Vector3(1, 3, 0);
+                //GameObject newItem = Instantiate(item);
+                //newItem.transform.position = newPlatform.transform.position + new Vector3(1, 3, 0);
             }
             if (gOToDestroy.Count > 4)
             {

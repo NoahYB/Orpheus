@@ -357,3 +357,4 @@
 /Users/noahbrinton/Desktop/Orpheus/OrpheusGame/obj/Debug/Assembly-CSharp.csproj.CopyComplete
 /Users/noahbrinton/Desktop/Orpheus/OrpheusGame/obj/Debug/Assembly-CSharp.dll
 /Users/noahbrinton/Desktop/Orpheus/OrpheusGame/obj/Debug/Assembly-CSharp.pdb
+/Users/noahbrinton/Desktop/Orpheus/OrpheusGame/Temp/bin/Debug/TwitchLib.Unity.dll
