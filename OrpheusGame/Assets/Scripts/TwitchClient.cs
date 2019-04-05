@@ -8,32 +8,28 @@ public class TwitchClient : MonoBehaviour
 {
 
     public Client client;
-    private string channel_name = "bob_jone";
+    private string channel_name = "Bob_Jone";
     // Start is called before the first frame update
     void Start()
     {
         Application.runInBackground = true;
 
         //set up bot and tell it which channel to join
-        ConnectionCredentials credentials = new ConnectionCredentials("Persephone_Bot", Secrets.bot_access_token);
+        ConnectionCredentials credentials = new ConnectionCredentials("persephone_bot", Secrets.bot_access_token);
         client = new Client();
         client.Initialize(credentials, channel_name);
 
         //get bot to subscribe to events to listen to here later
-        client.OnMessageReceived += SpeedUpTest;
+        client.OnMessageReceived += MessageTestFunction;
+
 
         //connect bot
         client.Connect();
     }
 
-    void SpeedUpTest(object sender, TwitchLib.Client.Events.OnMessageReceivedArgs e)
+    private void MessageTestFunction(object sender, TwitchLib.Client.Events.OnMessageReceivedArgs e)
     {
-        if (e.ChatMessage.Message == "fast")
-        {
-            Globals.instance.tempo = Globals.instance.tempo + 5;
-
-            client.SendMessage(client.JoinedChannels[0], "Current tempo is: " + Globals.instance.tempo);
-        }
+        Debug.Log("message sent in chat");
     }
 
 
@@ -45,6 +41,9 @@ public class TwitchClient : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            client.SendMessage(client.JoinedChannels[0], "someone pressed 'B'");
+        }
     }
 }

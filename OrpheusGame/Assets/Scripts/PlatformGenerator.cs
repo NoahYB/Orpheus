@@ -7,7 +7,6 @@ public class PlatformGenerator : MonoBehaviour
     public GameObject longPlatform;
     public GameObject mediumPlatform;
     public GameObject shortPlatform;
-    public float moveSpeed = 0.1f;
     public float maxDistance;
     public float distanceBetweenPlatforms;
     public GameObject player;

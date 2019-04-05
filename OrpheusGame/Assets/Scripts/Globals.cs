@@ -22,7 +22,6 @@ public class Globals : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
     public string musicKey = "c_major";
     public int tempo = 80;
 

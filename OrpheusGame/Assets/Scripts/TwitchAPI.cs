@@ -9,9 +9,6 @@ public class TwitchAPI : MonoBehaviour
 
     public Api api;
 
-    [SerializeField]
-    TwitchClient tc;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +20,7 @@ public class TwitchAPI : MonoBehaviour
 
     private void GetChattersListCallback(List<ChatterFormatted> listOfChatters)
     {
-        Debug.Log("List of " + listOfChatters.Count + "Viewers ");
+        Debug.Log("List of " + listOfChatters.Count + " Viewers ");
         foreach (var chatterObject in listOfChatters)
         {
             Debug.Log(chatterObject.Username);
@@ -35,7 +32,7 @@ public class TwitchAPI : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha0))
         {
-            api.Invoke(api.Undocumented.GetChattersAsync(tc.client.JoinedChannels[0].Channel), GetChattersListCallback);
+             api.Invoke(api.Undocumented.GetChattersAsync("bob_jone"), GetChattersListCallback);
         }
     }
 }
