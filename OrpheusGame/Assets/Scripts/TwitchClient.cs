@@ -29,7 +29,7 @@ public class TwitchClient : MonoBehaviour
 
     private void MessageTestFunction(object sender, TwitchLib.Client.Events.OnMessageReceivedArgs e)
     {
-        Debug.Log("message sent in chat");
+        Debug.Log(sender);
     }
 
 

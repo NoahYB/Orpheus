@@ -17,19 +17,26 @@ public class PlatformGenerator : MonoBehaviour
     GameObject newPlatform;
     public GameObject item;
     List<GameObject> gOToDestroy = new List<GameObject>();
+    List<GameObject> gOToDestroy2 = new List<GameObject>();
+    GameObject secondLayerPlatform;
 
     float y;
+    float secondY;
     // Start is called before the first frame update
     void Start()
     {
         newPlatform = Instantiate(longPlatform);
         y = currPlatform.transform.position.y;
         newPlatform.transform.position = new Vector3(player.transform.position.x + 5 + distanceBetweenPlatforms, y, 0);
+
+        secondLayerPlatform = Instantiate(longPlatform);
+        secondY = newPlatform.transform.position.y - 3;
+        newPlatform.transform.position = new Vector3(player.transform.position.x + 5 + distanceBetweenPlatforms, secondY, 0);
     }
     // Update is called once per frame
     void Update()
     {
-        if(newPlatform.transform.position.x < player.transform.position.x)
+        if (newPlatform.transform.position.x < player.transform.position.x)
         {
             int tier = Random.Range(1, 4);
             int size = Random.Range(1, 4);
@@ -61,7 +68,7 @@ public class PlatformGenerator : MonoBehaviour
             }
             gOToDestroy.Add(newPlatform);
             newPlatform = Instantiate(gOToInstantiate);
-            newPlatform.transform.position = new Vector3(player.transform.position.x+ distanceBetweenPlatforms,y,0);
+            newPlatform.transform.position = new Vector3(player.transform.position.x + distanceBetweenPlatforms, y, 0);
             if (itemChance > 7)
             {
                 //GameObject newItem = Instantiate(item);
@@ -74,6 +81,50 @@ public class PlatformGenerator : MonoBehaviour
                 Destroy(gOToDestroy[0]);
                 gOToDestroy.RemoveAt(0);
 
+            }
+
+            if (secondLayerPlatform.transform.position.x < player.transform.position.x)
+            {
+                int secondLayertier = Random.Range(1, 4);
+                int secondLayersize = Random.Range(1, 4);
+                int secondLayeritemChance = Random.Range(1, 10);
+
+                switch (tier)
+                {
+                    case 1:
+                        secondY = -2f - 8;
+                        break;
+                    case 2:
+                        secondY = 0f - 8;
+                        break;
+                    case 3:
+                        secondY = 2f - 8;
+                        break;
+                }
+                switch (size)
+                {
+                    case 1:
+                        gOToInstantiate = shortPlatform;
+                        break;
+                    case 2:
+                        gOToInstantiate = mediumPlatform;
+                        break;
+                    case 3:
+                        gOToInstantiate = longPlatform;
+                        break;
+                }
+                gOToDestroy2.Add(newPlatform);
+                newPlatform = Instantiate(gOToInstantiate);
+                newPlatform.transform.position = new Vector3(player.transform.position.x + distanceBetweenPlatforms, secondY, 0);
+
+                if (gOToDestroy2.Count > 4)
+                {
+                    Debug.Log('l');
+
+                    Destroy(gOToDestroy[0]);
+                    gOToDestroy.RemoveAt(0);
+
+                }
             }
         }
     }
