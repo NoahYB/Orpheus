@@ -13,33 +13,29 @@ public class ChordController : MonoBehaviour
     public void Start()
     {
         chordImageLists = new List<GameObject>();
+
         GameObject initChordImage = Instantiate(ChordImage);
         chordImageLists.Add(initChordImage);
-        RectTransform rt = (RectTransform)initChordImage.transform;
-        width = rt.rect.width;
-        initChordImage.transform.position = new Vector3(0+width/2, 0,0);
+        width = initChordImage.GetComponent<SpriteRenderer>().bounds.size.x;
+        Debug.Log(width);
+        initChordImage.transform.position = new Vector3(0, 0,0);
 
-        GameObject initChordImage2 = Instantiate(ChordImage);
-        initChordImage2.transform.position = new Vector3(0 + width, 0,0);
-        chordImageLists.Add(initChordImage2);
-
-
-        GameObject initChordImage3 = Instantiate(ChordImage);
-        initChordImage3.transform.position = new Vector3(0 + width*1.5f, 0,0);
-        chordImageLists.Add(initChordImage3);
     }
     public void Update()
     {
         if (chordImageLists.Count > 5)
         {
             Destroy(chordImageLists[0]);
+            chordImageLists.RemoveAt(0);
         }
-        else if (chordImageLists[0].transform.position.x < player.transform.position.x - width * 3)
+        else if (chordImageLists[0].transform.position.x < player.transform.position.x-2*width)
         {
-            //GameObject newChordImage = Instantiate(ChordImage);
-           ///newChordImage.transform.position =
-              //  new Vector3(chordImageLists[chordImageLists.Count].transform.position.x + width, 0,0);
-            //newChordImage.GetComponent<SpriteRenderer>().color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
+
+            GameObject newChordImage = Instantiate(ChordImage);
+            newChordImage.transform.position = 
+            new Vector3(chordImageLists[chordImageLists.Count-1].transform.position.x+width, 0,0);
+            newChordImage.GetComponent<SpriteRenderer>().color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
+            chordImageLists.Add(newChordImage);
         }
     }
 }
