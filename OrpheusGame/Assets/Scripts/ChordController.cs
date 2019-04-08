@@ -25,6 +25,7 @@ public class ChordController : MonoBehaviour
     List<GameObject> chordImageLists;
     void playChord(int index)
     {
+
         audioSource.clip = listOfChords[index];
         audioSource.Play();
     }
@@ -43,18 +44,19 @@ public class ChordController : MonoBehaviour
 
         initChordImage = Instantiate(ChordImage);
         chordImageLists.Add(initChordImage);
-        width = initChordImage.GetComponent<SpriteRenderer>().bounds.size.x;
-        Debug.Log(width);
+        width = initChordImage.GetComponent<SpriteRenderer>().bounds.size.x*(Globals.tempo/80);
+
         initChordImage.transform.position = new Vector3(0, 0,0);
 
     }
     public void Update()
     {
         if(chordImageLists[indexForChord].transform.position.x-width/2 <= player.transform.position.x
-        && (chordImageLists[indexForChord].transform.position.x-width/2 > player.transform.position.x-.5f))
+        && (chordImageLists[indexForChord].transform.position.x-width/2 > player.transform.position.x-.2f))
         {
-            int randInt = Random.Range(0, listOfChords.Count - 1);
-            playChord(Random.Range(0, randInt));
+            int randInt = Random.Range(0, 6);
+
+            playChord(randInt);
         }
         if (chordImageLists.Count > 5)
         {

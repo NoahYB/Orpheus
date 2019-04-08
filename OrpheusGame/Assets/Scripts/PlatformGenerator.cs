@@ -15,6 +15,7 @@ public class PlatformGenerator : MonoBehaviour
     public GameObject startingPlatform;
     GameObject gOToInstantiate;
     GameObject newPlatform;
+    GameObject newPlatform2;
     public GameObject item;
     List<GameObject> gOToDestroy = new List<GameObject>();
     List<GameObject> gOToDestroy2 = new List<GameObject>();
@@ -66,9 +67,10 @@ public class PlatformGenerator : MonoBehaviour
                     gOToInstantiate = longPlatform;
                     break;
             }
-            gOToDestroy.Add(newPlatform);
+
             newPlatform = Instantiate(gOToInstantiate);
             newPlatform.transform.position = new Vector3(player.transform.position.x + distanceBetweenPlatforms, y, 0);
+            gOToDestroy.Add(newPlatform);
             if (itemChance > 7)
             {
                 //GameObject newItem = Instantiate(item);
@@ -76,7 +78,6 @@ public class PlatformGenerator : MonoBehaviour
             }
             if (gOToDestroy.Count > 4)
             {
-                Debug.Log('l');
 
                 Destroy(gOToDestroy[0]);
                 gOToDestroy.RemoveAt(0);
@@ -89,19 +90,19 @@ public class PlatformGenerator : MonoBehaviour
                 int secondLayersize = Random.Range(1, 4);
                 int secondLayeritemChance = Random.Range(1, 10);
 
-                switch (tier)
+                switch (secondLayertier)
                 {
                     case 1:
-                        secondY = -2f - 8;
+                        secondY = -2f - Random.Range(4,10);
                         break;
                     case 2:
-                        secondY = 0f - 8;
+                        secondY = 0f -Random.Range(4, 10);
                         break;
                     case 3:
-                        secondY = 2f - 8;
+                        secondY = 2f -Random.Range(4, 10);
                         break;
                 }
-                switch (size)
+                switch (secondLayersize)
                 {
                     case 1:
                         gOToInstantiate = shortPlatform;
@@ -113,16 +114,15 @@ public class PlatformGenerator : MonoBehaviour
                         gOToInstantiate = longPlatform;
                         break;
                 }
-                gOToDestroy2.Add(newPlatform);
-                newPlatform = Instantiate(gOToInstantiate);
-                newPlatform.transform.position = new Vector3(player.transform.position.x + distanceBetweenPlatforms, secondY, 0);
 
+                newPlatform2 = Instantiate(gOToInstantiate);
+                newPlatform2.transform.position = 
+                    new Vector3(player.transform.position.x + distanceBetweenPlatforms+Random.Range(-2f,5f), secondY, 0);
+                gOToDestroy2.Add(newPlatform2);
                 if (gOToDestroy2.Count > 4)
                 {
-                    Debug.Log('l');
-
-                    Destroy(gOToDestroy[0]);
-                    gOToDestroy.RemoveAt(0);
+                    Destroy(gOToDestroy2[0]);
+                    gOToDestroy2.RemoveAt(0);
 
                 }
             }

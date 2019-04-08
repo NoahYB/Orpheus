@@ -28,10 +28,14 @@ public class PlayerController : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpVelocity);
     }
+    public void DashDown()
+    {
+        rb.velocity = new Vector2(rb.velocity.x, -10);
+    }
     // Update is called once per frame
     void Update()
     {
-        moveSpeed = Globals.instance.tempo / 10;
+        moveSpeed = Globals.tempo / 10;
 
         text.text = "SCORE: " + rb.transform.position.x;
         rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
