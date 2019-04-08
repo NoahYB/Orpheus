@@ -223,6 +223,22 @@ public class NoteHandler : MonoBehaviour
             currentIntervalPositive = false;
         }
     }
+
+    private void DecideOnJumpOrDash()
+    {
+        if (currentIntervalPositive && currentKeyNumber != lastKeyNumber)
+        {
+            pc.Jump();
+        }
+        if (currentIntervalPositive == false && currentKeyNumber != lastKeyNumber)
+        {
+            pc.DashDown();
+        }
+        if (currentKeyNumber == lastKeyNumber)
+        {
+            Globals.instance.tempo += 2;
+        }
+    }
     int tempKeyNumberW;
     int tempKeyNumberA;
     int tempKeyNumberS;
@@ -251,10 +267,7 @@ public class NoteHandler : MonoBehaviour
                 lastKeyNumber = currentKeyNumber;
                 PlayNote(tempKeyNumberW, currentInstrument);
                 CheckCurrentInterval();
-                if (currentIntervalPositive && currentKeyNumber != lastKeyNumber)
-                {
-                    pc.Jump();
-                }
+                DecideOnJumpOrDash();
             }
             if (Input.GetKeyUp(KeyCode.W))
             {
@@ -268,10 +281,7 @@ public class NoteHandler : MonoBehaviour
                 lastKeyNumber = currentKeyNumber;
                 PlayNote(tempKeyNumberA, currentInstrument);
                 CheckCurrentInterval();
-                if (currentIntervalPositive && currentKeyNumber != lastKeyNumber)
-                {
-                    pc.Jump();
-                }
+                DecideOnJumpOrDash();
             }
             if (Input.GetKeyUp(KeyCode.A))
             {
@@ -285,10 +295,7 @@ public class NoteHandler : MonoBehaviour
                 lastKeyNumber = currentKeyNumber;
                 PlayNote(tempKeyNumberS, currentInstrument);
                 CheckCurrentInterval();
-                if (currentIntervalPositive && currentKeyNumber != lastKeyNumber)
-                {
-                    pc.Jump();
-                }
+                DecideOnJumpOrDash();
             }
             if (Input.GetKeyUp(KeyCode.S))
             {
@@ -302,10 +309,7 @@ public class NoteHandler : MonoBehaviour
                 lastKeyNumber = currentKeyNumber;
                 PlayNote(tempKeyNumberD, currentInstrument);
                 CheckCurrentInterval();
-                if (currentIntervalPositive && currentKeyNumber != lastKeyNumber)
-                {
-                    pc.Jump();
-                }
+                DecideOnJumpOrDash();
             }
             if (Input.GetKeyUp(KeyCode.D))
             {
@@ -319,10 +323,7 @@ public class NoteHandler : MonoBehaviour
                 lastKeyNumber = currentKeyNumber;
                 PlayNote(tempKeyNumberSpace, currentInstrument);
                 CheckCurrentInterval();
-                if (currentIntervalPositive && currentKeyNumber != lastKeyNumber)
-                {
-                    pc.Jump();
-                }
+                DecideOnJumpOrDash();
             }
             if (Input.GetKeyUp(KeyCode.Space))
             {
@@ -337,10 +338,7 @@ public class NoteHandler : MonoBehaviour
                 lastKeyNumber = currentKeyNumber;
                 PlayNote(40, currentInstrument);
                 CheckCurrentInterval();
-                if (currentIntervalPositive)
-                {
-                    pc.Jump();
-                }
+                DecideOnJumpOrDash();
             }
             if (Input.GetKeyUp(KeyCode.A))
             {
@@ -352,10 +350,7 @@ public class NoteHandler : MonoBehaviour
                 lastKeyNumber = currentKeyNumber;
                 PlayNote(42, currentInstrument);
                 CheckCurrentInterval();
-                if (currentIntervalPositive)
-                {
-                    pc.Jump();
-                }
+                DecideOnJumpOrDash();
             }
             if (Input.GetKeyUp(KeyCode.S))
             {
@@ -367,10 +362,7 @@ public class NoteHandler : MonoBehaviour
                 lastKeyNumber = currentKeyNumber;
                 PlayNote(44, currentInstrument);
                 CheckCurrentInterval();
-                if (currentIntervalPositive)
-                {
-                    pc.Jump();
-                }
+                DecideOnJumpOrDash();
             }
             if (Input.GetKeyUp(KeyCode.D))
             {
@@ -382,10 +374,7 @@ public class NoteHandler : MonoBehaviour
                 lastKeyNumber = currentKeyNumber;
                 PlayNote(45, currentInstrument);
                 CheckCurrentInterval();
-                if (currentIntervalPositive)
-                {
-                    pc.Jump();
-                }
+                DecideOnJumpOrDash();
             }
             if (Input.GetKeyUp(KeyCode.F))
             {
@@ -397,10 +386,7 @@ public class NoteHandler : MonoBehaviour
                 lastKeyNumber = currentKeyNumber;
                 PlayNote(47, currentInstrument);
                 CheckCurrentInterval();
-                if (currentIntervalPositive)
-                {
-                    pc.Jump();
-                }
+                DecideOnJumpOrDash();
             }
             if (Input.GetKeyUp(KeyCode.J))
             {
@@ -412,10 +398,7 @@ public class NoteHandler : MonoBehaviour
                 lastKeyNumber = currentKeyNumber;
                 PlayNote(49, currentInstrument);
                 CheckCurrentInterval();
-                if (currentIntervalPositive)
-                {
-                    pc.Jump();
-                }
+                DecideOnJumpOrDash();
             }
             if (Input.GetKeyUp(KeyCode.K))
             {
@@ -427,10 +410,7 @@ public class NoteHandler : MonoBehaviour
                 lastKeyNumber = currentKeyNumber;
                 PlayNote(51, currentInstrument);
                 CheckCurrentInterval();
-                if (currentIntervalPositive)
-                {
-                    pc.Jump();
-                }
+                DecideOnJumpOrDash();
             }
             if (Input.GetKeyUp(KeyCode.L))
             {
@@ -442,10 +422,7 @@ public class NoteHandler : MonoBehaviour
                 lastKeyNumber = currentKeyNumber;
                 PlayNote(52, currentInstrument);
                 CheckCurrentInterval();
-                if (currentIntervalPositive)
-                {
-                    pc.Jump();
-                }
+                DecideOnJumpOrDash();
             }
             if (Input.GetKeyUp(KeyCode.Semicolon))
             {

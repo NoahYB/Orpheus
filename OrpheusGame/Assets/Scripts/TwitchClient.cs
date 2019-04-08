@@ -29,9 +29,17 @@ public class TwitchClient : MonoBehaviour
 
     private void MessageTestFunction(object sender, TwitchLib.Client.Events.OnMessageReceivedArgs e)
     {
-        Debug.Log("message sent in chat");
+        if (e.ChatMessage.Message == "faster")
+        {
+            Globals.instance.tempo += 5;
+            client.SendMessage(client.JoinedChannels[0], e.ChatMessage.Username + " sent 'faster' command. Current tempo is " + Globals.instance.tempo);
+        }
+        if (e.ChatMessage.Message == "slower")
+        {
+            Globals.instance.tempo -= 5;
+            client.SendMessage(client.JoinedChannels[0], e.ChatMessage.Username + " sent 'slower' command. Current tempo is " + Globals.instance.tempo);
+        }
     }
-
 
     void ChordPickup()
     {
