@@ -7,46 +7,58 @@ public class PlayerController : MonoBehaviour
 {
     public Text text;
     public Vector3 jump;
+    public float timeToJumpApex;
+    public float gravity;
+    public float dashDownVelocity =  -10f;
     Vector3 velocity;
     public float jumpVelocity = 2.0f;
     public float moveSpeed;
+    public float t;
     Rigidbody2D rb;
     public Collider2D playerCollider;
     public LayerMask ground;
     public Animator animator;
     float initX;
-
+    Controller2DOrpheus controller;
     // Start is called before the first frame update
     void Start()
     {
+        t = Globals.tempo/80;
+        controller = GetComponent <Controller2DOrpheus>();
+        jumpVelocity = gravity * timeToJumpApex;
         animator = GetComponent<Animator>();
         playerCollider = GetComponent<Collider2D>();
-        rb = GetComponent<Rigidbody2D>();
         animator.SetBool("isWalking", true);
     }
     public void Jump()
     {
-        rb.velocity = new Vector2(rb.velocity.x, jumpVelocity);
+        velocity.y = jumpVelocity;
     }
     public void DashDown()
     {
-        rb.velocity = new Vector2(rb.velocity.x, -10);
+        velocity.y = dashDownVelocity;
     }
     // Update is called once per frame
     void Update()
     {
-        moveSpeed = Globals.tempo / 10;
+        t = Globals.tempo / 80;
 
-        text.text = "SCORE: " + rb.transform.position.x;
-        rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
-    }
+        velocity.x = moveSpeed * t;
+        velocity.y += ((gravity * -1) * Time.deltaTime);
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag.Equals("Item"))
+        if (controller.collisions.above || controller.collisions.below)
         {
-            Destroy(collision.gameObject);
-            rb.AddForce(Vector2.right * 10000f);
+            velocity.y = 0;
         }
+        Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+
+        if (transform.position.y < -20)
+        {
+
+        }
+
+        controller.Move(velocity);
+
     }
 }

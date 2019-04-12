@@ -52,7 +52,7 @@ public class ChordController : MonoBehaviour
     public void Update()
     {
         if(chordImageLists[indexForChord].transform.position.x-width/2 <= player.transform.position.x
-        && (chordImageLists[indexForChord].transform.position.x-width/2 > player.transform.position.x-.2f))
+        && (chordImageLists[indexForChord].transform.position.x-width/2 > player.transform.position.x-.3f))
         {
             int randInt = Random.Range(0, 6);
 
@@ -71,7 +71,7 @@ public class ChordController : MonoBehaviour
             newChordImage.transform.position = 
             new Vector3(chordImageLists[chordImageLists.Count-1].transform.position.x+width, 0,0);
 
-            newChordImage.GetComponent<SpriteRenderer>().color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
+            newChordImage.GetComponent<SpriteRenderer>().color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f,.1f,.2f);
             chordImageLists.Add(newChordImage);
         }
     }

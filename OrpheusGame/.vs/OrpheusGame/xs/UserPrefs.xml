@@ -4,11 +4,13 @@
       <File FileName="Assets/Scripts/Secrets.cs" Line="7" Column="35" />
       <File FileName="Assets/Scripts/TwitchClient.cs" Line="43" Column="136" />
       <File FileName="Assets/Scripts/TwitchAPI.cs" Line="30" Column="32" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="38" Column="28" />
-      <File FileName="Assets/Scripts/PlatformGenerator.cs" Line="19" Column="28" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="46" Column="31" />
+      <File FileName="Assets/Scripts/PlatformGenerator.cs" Line="36" Column="48" />
       <File FileName="Assets/Scripts/NoteHandler.cs" Line="239" Column="20" />
-      <File FileName="Assets/Scripts/CameraScript.cs" Line="18" Column="76" />
-      <File FileName="Assets/Scripts/ChordController.cs" Line="59" Column="30" />
+      <File FileName="Assets/Scripts/CameraScript.cs" Line="18" Column="72" />
+      <File FileName="Assets/Scripts/ChordController.cs" Line="76" Column="10" />
+      <File FileName="Assets/Scripts/Controller2DOrpheus.cs" Line="57" Column="9" />
+      <File FileName="../../PlatformGame/PlatformGame/Assets/Scripts/Player.cs" Line="75" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
