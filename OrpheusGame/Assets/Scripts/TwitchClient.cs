@@ -39,17 +39,17 @@ public class TwitchClient : MonoBehaviour
 
         Debug.Log(sender);
 
-        if (e.ChatMessage.Message == "faster")
+        if (e.ChatMessage.Message == "faster" || e.ChatMessage.Message == "!faster")
         {
             Globals.tempo += 5;
             client.SendMessage(client.JoinedChannels[0], e.ChatMessage.Username + " sent 'faster' command. Current tempo is " + Globals.tempo);
         }
-        if (e.ChatMessage.Message == "slower")
+        if (e.ChatMessage.Message == "slower" || e.ChatMessage.Message == "!slower")
         {
             Globals.tempo -= 5;
             client.SendMessage(client.JoinedChannels[0], e.ChatMessage.Username + " sent 'slower' command. Current tempo is " + Globals.tempo);
         }
-        if (e.ChatMessage.Message == "help")
+        if (e.ChatMessage.Message == "help" || e.ChatMessage.Message == "!help")
         {
             client.SendMessage(client.JoinedChannels[0], "Hey, " + e.ChatMessage.Username + ". I'm persephone bot. Try typing 'faster' or 'slower' in the chat.");
         }

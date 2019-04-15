@@ -23,12 +23,12 @@ public class PlayerController : MonoBehaviour
     public LayerMask ground;
     public Animator animator;
     float initX;
-    Controller2DOrpheus controller;
+    MathManager controller;
     // Start is called before the first frame update
     void Start()
     {
         t = Globals.tempo/80;
-        controller = GetComponent <Controller2DOrpheus>();
+        controller = GetComponent <MathManager>();
         jumpVelocity = gravity * timeToJumpApex;
         animator = GetComponent<Animator>();
         playerCollider = GetComponent<Collider2D>();
@@ -49,22 +49,7 @@ public class PlayerController : MonoBehaviour
 
     private void CheckGrounded()
     {
-        float dist = 1f;
-        Vector2 dir = Vector2.down;
-        Vector2 pos = transform.position;
-
-        Debug.DrawRay(pos, dir, Color.green);
-
-        RaycastHit2D hit = (Physics2D.Raycast(pos, dir, dist, ground));
-        if (hit.collider != null)
-        {
-            isGrounded = true;
-            doubleJumped = false;
-        }
-        else
-        {
-            isGrounded = false;
-        }
+        
     }
 
         void Update()

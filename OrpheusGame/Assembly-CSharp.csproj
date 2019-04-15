@@ -62,8 +62,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\ChordController.cs" />
-    <Compile Include="Assets\Scripts\Controller2DOrpheus.cs" />
     <Compile Include="Assets\Scripts\Globals.cs" />
+    <Compile Include="Assets\Scripts\MathManager.cs" />
     <Compile Include="Assets\Scripts\NoteHandler.cs" />
     <Compile Include="Assets\Scripts\PlatformGenerator.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
