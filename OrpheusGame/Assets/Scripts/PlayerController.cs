@@ -15,6 +15,10 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     public float t;
     Rigidbody2D rb;
+
+    public bool isGrounded;
+    public bool doubleJumped;
+
     public Collider2D playerCollider;
     public LayerMask ground;
     public Animator animator;
@@ -32,14 +36,38 @@ public class PlayerController : MonoBehaviour
     }
     public void Jump()
     {
-        velocity.y = jumpVelocity;
+        if (isGrounded || !doubleJumped)
+        {
+            velocity.y = jumpVelocity;
+            doubleJumped= !isGrounded;
+        }
     }
     public void DashDown()
     {
         velocity.y = dashDownVelocity;
     }
-    // Update is called once per frame
-    void Update()
+
+    private void CheckGrounded()
+    {
+        float dist = 1f;
+        Vector2 dir = Vector2.down;
+        Vector2 pos = transform.position;
+
+        Debug.DrawRay(pos, dir, Color.green);
+
+        RaycastHit2D hit = (Physics2D.Raycast(pos, dir, dist, ground));
+        if (hit.collider != null)
+        {
+            isGrounded = true;
+            doubleJumped = false;
+        }
+        else
+        {
+            isGrounded = false;
+        }
+    }
+
+        void Update()
     {
         t = Globals.tempo / 80;
 
@@ -58,7 +86,14 @@ public class PlayerController : MonoBehaviour
 
         }
 
+        CheckGrounded();
+
         controller.Move(velocity);
 
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            Debug.Log("isGrounded: " + isGrounded);
+            Debug.Log("doubleJumped: " + doubleJumped);
+        }
     }
 }

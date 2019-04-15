@@ -21,10 +21,17 @@ public class TwitchClient : MonoBehaviour
 
         //get bot to subscribe to events to listen to here later
         client.OnMessageReceived += MessageTestFunction;
+        client.OnConnected += Client_OnConnected;
 
 
         //connect bot
         client.Connect();
+    }
+
+    private void Client_OnConnected(object sender, TwitchLib.Client.Events.OnConnectedArgs e)
+    {
+        client.SendMessage(client.JoinedChannels[0], "Welcome to the underworld. Try typing 'faster' or 'slower' to alter the tempo of the game.");
+        Debug.Log("conncted to " + client.JoinedChannels[0]);
     }
 
     private void MessageTestFunction(object sender, TwitchLib.Client.Events.OnMessageReceivedArgs e)
@@ -41,6 +48,10 @@ public class TwitchClient : MonoBehaviour
         {
             Globals.tempo -= 5;
             client.SendMessage(client.JoinedChannels[0], e.ChatMessage.Username + " sent 'slower' command. Current tempo is " + Globals.tempo);
+        }
+        if (e.ChatMessage.Message == "help")
+        {
+            client.SendMessage(client.JoinedChannels[0], "Hey, " + e.ChatMessage.Username + ". I'm persephone bot. Try typing 'faster' or 'slower' in the chat.");
         }
     }
 
