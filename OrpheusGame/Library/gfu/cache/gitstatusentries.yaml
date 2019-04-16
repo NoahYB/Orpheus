@@ -1,0 +1,1465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2019-04-15T17:25:52.893-04:00
+  initializedAtString: 2019-04-15T16:42:01.836-04:00
+  entries:
+  - path: OrpheusGame\.vs\OrpheusGame\v15\.suo
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\.vs\OrpheusGame\v15\.suo
+    projectPath: .vs\OrpheusGame\v15\.suo
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\.vs\OrpheusGame\v15\Server\sqlite3\storage.ide
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\.vs\OrpheusGame\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\OrpheusGame\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\.vs\OrpheusGame\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\.vs\OrpheusGame\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\OrpheusGame\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\.vs\OrpheusGame\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\.vs\OrpheusGame\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\OrpheusGame\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Assembly-CSharp.csproj
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords.meta
+    projectPath: Assets\Audio\Chords\c minor chords.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\Cm.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\Cm.wav
+    projectPath: Assets\Audio\Chords\c minor chords\Cm.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\Cm.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\Cm.wav.meta
+    projectPath: Assets\Audio\Chords\c minor chords\Cm.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\Cm7.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\Cm7.wav
+    projectPath: Assets\Audio\Chords\c minor chords\Cm7.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\Cm7.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\Cm7.wav.meta
+    projectPath: Assets\Audio\Chords\c minor chords\Cm7.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\D#.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\D#.wav
+    projectPath: Assets\Audio\Chords\c minor chords\D#.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\D#.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\D#.wav.meta
+    projectPath: Assets\Audio\Chords\c minor chords\D#.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\D#7.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\D#7.wav
+    projectPath: Assets\Audio\Chords\c minor chords\D#7.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\D#7.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\D#7.wav.meta
+    projectPath: Assets\Audio\Chords\c minor chords\D#7.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\Fm.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\Fm.wav
+    projectPath: Assets\Audio\Chords\c minor chords\Fm.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\Fm.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\Fm.wav.meta
+    projectPath: Assets\Audio\Chords\c minor chords\Fm.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\Fm7.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\Fm7.wav
+    projectPath: Assets\Audio\Chords\c minor chords\Fm7.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\Fm7.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\Fm7.wav.meta
+    projectPath: Assets\Audio\Chords\c minor chords\Fm7.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\Gm.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\Gm.wav
+    projectPath: Assets\Audio\Chords\c minor chords\Gm.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\Gm.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\Gm.wav.meta
+    projectPath: Assets\Audio\Chords\c minor chords\Gm.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\Gm7.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\Gm7.wav
+    projectPath: Assets\Audio\Chords\c minor chords\Gm7.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\c minor chords\Gm7.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\c
+      minor chords\Gm7.wav.meta
+    projectPath: Assets\Audio\Chords\c minor chords\Gm7.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\chords.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\chords.wav
+    projectPath: Assets\Audio\Chords\chords.wav
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\chords.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\chords.wav.meta
+    projectPath: Assets\Audio\Chords\chords.wav.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\I(renamelater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\I(renamelater).wav
+    projectPath: Assets\Audio\Chords\I(renamelater).wav
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\I(renamelater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\I(renamelater).wav.meta
+    projectPath: Assets\Audio\Chords\I(renamelater).wav.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\ii(renameLater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\ii(renameLater).wav
+    projectPath: Assets\Audio\Chords\ii(renameLater).wav
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\ii(renameLater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\ii(renameLater).wav.meta
+    projectPath: Assets\Audio\Chords\ii(renameLater).wav.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\III(renameLater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\III(renameLater).wav
+    projectPath: Assets\Audio\Chords\III(renameLater).wav
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\III(renameLater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\III(renameLater).wav.meta
+    projectPath: Assets\Audio\Chords\III(renameLater).wav.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\IV(renameLater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\IV(renameLater).wav
+    projectPath: Assets\Audio\Chords\IV(renameLater).wav
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\IV(renameLater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\IV(renameLater).wav.meta
+    projectPath: Assets\Audio\Chords\IV(renameLater).wav.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db.meta
+    projectPath: Assets\Audio\Chords\test_chords_db.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\chords.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\chords.wav
+    projectPath: Assets\Audio\Chords\test_chords_db\chords.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\chords.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\chords.wav.meta
+    projectPath: Assets\Audio\Chords\test_chords_db\chords.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\I(renamelater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\I(renamelater).wav
+    projectPath: Assets\Audio\Chords\test_chords_db\I(renamelater).wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\I(renamelater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\I(renamelater).wav.meta
+    projectPath: Assets\Audio\Chords\test_chords_db\I(renamelater).wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\ii(renameLater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\ii(renameLater).wav
+    projectPath: Assets\Audio\Chords\test_chords_db\ii(renameLater).wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\ii(renameLater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\ii(renameLater).wav.meta
+    projectPath: Assets\Audio\Chords\test_chords_db\ii(renameLater).wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\III(renameLater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\III(renameLater).wav
+    projectPath: Assets\Audio\Chords\test_chords_db\III(renameLater).wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\III(renameLater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\III(renameLater).wav.meta
+    projectPath: Assets\Audio\Chords\test_chords_db\III(renameLater).wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\IV(renameLater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\IV(renameLater).wav
+    projectPath: Assets\Audio\Chords\test_chords_db\IV(renameLater).wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\IV(renameLater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\IV(renameLater).wav.meta
+    projectPath: Assets\Audio\Chords\test_chords_db\IV(renameLater).wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\V(renamelater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\V(renamelater).wav
+    projectPath: Assets\Audio\Chords\test_chords_db\V(renamelater).wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\V(renamelater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\V(renamelater).wav.meta
+    projectPath: Assets\Audio\Chords\test_chords_db\V(renamelater).wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\vi(renameLater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\vi(renameLater).wav
+    projectPath: Assets\Audio\Chords\test_chords_db\vi(renameLater).wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\vi(renameLater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\vi(renameLater).wav.meta
+    projectPath: Assets\Audio\Chords\test_chords_db\vi(renameLater).wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\vii(renameLater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\vii(renameLater).wav
+    projectPath: Assets\Audio\Chords\test_chords_db\vii(renameLater).wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\test_chords_db\vii(renameLater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\test_chords_db\vii(renameLater).wav.meta
+    projectPath: Assets\Audio\Chords\test_chords_db\vii(renameLater).wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\V(renamelater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\V(renamelater).wav
+    projectPath: Assets\Audio\Chords\V(renamelater).wav
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\V(renamelater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\V(renamelater).wav.meta
+    projectPath: Assets\Audio\Chords\V(renamelater).wav.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\vi(renameLater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\vi(renameLater).wav
+    projectPath: Assets\Audio\Chords\vi(renameLater).wav
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\vi(renameLater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\vi(renameLater).wav.meta
+    projectPath: Assets\Audio\Chords\vi(renameLater).wav.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\vii(renameLater).wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\vii(renameLater).wav
+    projectPath: Assets\Audio\Chords\vii(renameLater).wav
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\Chords\vii(renameLater).wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\Chords\vii(renameLater).wav.meta
+    projectPath: Assets\Audio\Chords\vii(renameLater).wav.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc.meta
+    projectPath: Assets\Audio\perc.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 1.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      1.wav
+    projectPath: Assets\Audio\perc\perc 1.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 1.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      1.wav.meta
+    projectPath: Assets\Audio\perc\perc 1.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 2.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      2.wav
+    projectPath: Assets\Audio\perc\perc 2.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 2.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      2.wav.meta
+    projectPath: Assets\Audio\perc\perc 2.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 3.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      3.wav
+    projectPath: Assets\Audio\perc\perc 3.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 3.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      3.wav.meta
+    projectPath: Assets\Audio\perc\perc 3.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 4.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      4.wav
+    projectPath: Assets\Audio\perc\perc 4.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 4.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      4.wav.meta
+    projectPath: Assets\Audio\perc\perc 4.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 5.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      5.wav
+    projectPath: Assets\Audio\perc\perc 5.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 5.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      5.wav.meta
+    projectPath: Assets\Audio\perc\perc 5.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 6.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      6.wav
+    projectPath: Assets\Audio\perc\perc 6.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 6.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      6.wav.meta
+    projectPath: Assets\Audio\perc\perc 6.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 7.wav
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      7.wav
+    projectPath: Assets\Audio\perc\perc 7.wav
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Audio\perc\perc 7.wav.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Audio\perc\perc
+      7.wav.meta
+    projectPath: Assets\Audio\perc\perc 7.wav.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Plugins\GitHub.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Plugins\GitHub.meta
+    projectPath: Assets\Plugins\GitHub.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Plugins\GitHub\Editor.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Plugins\GitHub\Editor.meta
+    projectPath: Assets\Plugins\GitHub\Editor.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Plugins\GitHub\Editor\x64.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Plugins\GitHub\Editor\x64.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Plugins\GitHub\Editor\x86.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Plugins\GitHub\Editor\x86.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Scenes\SampleScene.unity
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Assets\Scripts\ChordController.cs
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Scripts\ChordController.cs
+    projectPath: Assets\Scripts\ChordController.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Assets\Scripts\Globals.cs
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Scripts\Globals.cs
+    projectPath: Assets\Scripts\Globals.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Assets\Scripts\MonsterSpawner.cs
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Scripts\MonsterSpawner.cs
+    projectPath: Assets\Scripts\MonsterSpawner.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Scripts\MonsterSpawner.cs.meta
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Scripts\MonsterSpawner.cs.meta
+    projectPath: Assets\Scripts\MonsterSpawner.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Assets\Scripts\PlayerController.cs
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Assets\Scripts\PlayerController.cs
+    projectPath: Assets\Scripts\PlayerController.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\assetDatabase3
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\EditorInstance.json
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\metadata\05\05923b451613c2e47b36f5504ccc6802
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\05\05923b451613c2e47b36f5504ccc6802
+    projectPath: Library\metadata\05\05923b451613c2e47b36f5504ccc6802
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\05\05923b451613c2e47b36f5504ccc6802.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\05\05923b451613c2e47b36f5504ccc6802.info
+    projectPath: Library\metadata\05\05923b451613c2e47b36f5504ccc6802.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\05\05923b451613c2e47b36f5504ccc6802.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\05\05923b451613c2e47b36f5504ccc6802.resource
+    projectPath: Library\metadata\05\05923b451613c2e47b36f5504ccc6802.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\0c\0cad95cbfe4bb4396a219b61a134fc7a
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\0c\0cad95cbfe4bb4396a219b61a134fc7a
+    projectPath: Library\metadata\0c\0cad95cbfe4bb4396a219b61a134fc7a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\metadata\0d\0dd7cda6972cde844a0cc9e70f6a8874
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\0d\0dd7cda6972cde844a0cc9e70f6a8874
+    projectPath: Library\metadata\0d\0dd7cda6972cde844a0cc9e70f6a8874
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\0d\0dd7cda6972cde844a0cc9e70f6a8874.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\0d\0dd7cda6972cde844a0cc9e70f6a8874.info
+    projectPath: Library\metadata\0d\0dd7cda6972cde844a0cc9e70f6a8874.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\0d\0dd7cda6972cde844a0cc9e70f6a8874.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\0d\0dd7cda6972cde844a0cc9e70f6a8874.resource
+    projectPath: Library\metadata\0d\0dd7cda6972cde844a0cc9e70f6a8874.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\15\151a1d946b98deb4b98445400983ba92
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\15\151a1d946b98deb4b98445400983ba92
+    projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+    projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\18\18e096a98c2704c40a818dd1214cd179
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\18\18e096a98c2704c40a818dd1214cd179
+    projectPath: Library\metadata\18\18e096a98c2704c40a818dd1214cd179
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\18\18e096a98c2704c40a818dd1214cd179.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\18\18e096a98c2704c40a818dd1214cd179.info
+    projectPath: Library\metadata\18\18e096a98c2704c40a818dd1214cd179.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\1d\1d5c05675d86a5541b33c5f22d445f46
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\1d\1d5c05675d86a5541b33c5f22d445f46
+    projectPath: Library\metadata\1d\1d5c05675d86a5541b33c5f22d445f46
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\1d\1d5c05675d86a5541b33c5f22d445f46.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\1d\1d5c05675d86a5541b33c5f22d445f46.info
+    projectPath: Library\metadata\1d\1d5c05675d86a5541b33c5f22d445f46.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\1d\1d5c05675d86a5541b33c5f22d445f46.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\1d\1d5c05675d86a5541b33c5f22d445f46.resource
+    projectPath: Library\metadata\1d\1d5c05675d86a5541b33c5f22d445f46.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\20\2009da01416b5444b98bc1c4421fe4f4
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\20\2009da01416b5444b98bc1c4421fe4f4
+    projectPath: Library\metadata\20\2009da01416b5444b98bc1c4421fe4f4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\20\2009da01416b5444b98bc1c4421fe4f4.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\20\2009da01416b5444b98bc1c4421fe4f4.info
+    projectPath: Library\metadata\20\2009da01416b5444b98bc1c4421fe4f4.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\28\285427067ba8fff4faa446d1aa810ebe
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\28\285427067ba8fff4faa446d1aa810ebe
+    projectPath: Library\metadata\28\285427067ba8fff4faa446d1aa810ebe
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\28\285427067ba8fff4faa446d1aa810ebe.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\28\285427067ba8fff4faa446d1aa810ebe.info
+    projectPath: Library\metadata\28\285427067ba8fff4faa446d1aa810ebe.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\2f\2fc42284c0205dd47aa0e59d3a6b40dd
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\2f\2fc42284c0205dd47aa0e59d3a6b40dd
+    projectPath: Library\metadata\2f\2fc42284c0205dd47aa0e59d3a6b40dd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\2f\2fc42284c0205dd47aa0e59d3a6b40dd.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\2f\2fc42284c0205dd47aa0e59d3a6b40dd.info
+    projectPath: Library\metadata\2f\2fc42284c0205dd47aa0e59d3a6b40dd.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\2f\2fc42284c0205dd47aa0e59d3a6b40dd.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\2f\2fc42284c0205dd47aa0e59d3a6b40dd.resource
+    projectPath: Library\metadata\2f\2fc42284c0205dd47aa0e59d3a6b40dd.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\30\3033730f38d94594ead0deac6baf3929
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\30\3033730f38d94594ead0deac6baf3929
+    projectPath: Library\metadata\30\3033730f38d94594ead0deac6baf3929
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\30\3033730f38d94594ead0deac6baf3929.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\30\3033730f38d94594ead0deac6baf3929.info
+    projectPath: Library\metadata\30\3033730f38d94594ead0deac6baf3929.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\30\3033730f38d94594ead0deac6baf3929.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\30\3033730f38d94594ead0deac6baf3929.resource
+    projectPath: Library\metadata\30\3033730f38d94594ead0deac6baf3929.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\3f\3fe8d6c864f864724a58c656fc3e6422
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\3f\3fe8d6c864f864724a58c656fc3e6422
+    projectPath: Library\metadata\3f\3fe8d6c864f864724a58c656fc3e6422
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\metadata\46\46f33da25c147484b8778b7979201f07
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\46\46f33da25c147484b8778b7979201f07
+    projectPath: Library\metadata\46\46f33da25c147484b8778b7979201f07
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\metadata\49\496679fbd76bd42fba50a16c99983db4
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\49\496679fbd76bd42fba50a16c99983db4
+    projectPath: Library\metadata\49\496679fbd76bd42fba50a16c99983db4
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\metadata\57\57559a9bc19a092418de44fa30bbf57f
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\57\57559a9bc19a092418de44fa30bbf57f
+    projectPath: Library\metadata\57\57559a9bc19a092418de44fa30bbf57f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\57\57559a9bc19a092418de44fa30bbf57f.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\57\57559a9bc19a092418de44fa30bbf57f.info
+    projectPath: Library\metadata\57\57559a9bc19a092418de44fa30bbf57f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\57\57559a9bc19a092418de44fa30bbf57f.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\57\57559a9bc19a092418de44fa30bbf57f.resource
+    projectPath: Library\metadata\57\57559a9bc19a092418de44fa30bbf57f.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\62\629eb04027f4f6d4f9aa2fa6c67fdbf9
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\62\629eb04027f4f6d4f9aa2fa6c67fdbf9
+    projectPath: Library\metadata\62\629eb04027f4f6d4f9aa2fa6c67fdbf9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\62\629eb04027f4f6d4f9aa2fa6c67fdbf9.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\62\629eb04027f4f6d4f9aa2fa6c67fdbf9.info
+    projectPath: Library\metadata\62\629eb04027f4f6d4f9aa2fa6c67fdbf9.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\62\629eb04027f4f6d4f9aa2fa6c67fdbf9.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\62\629eb04027f4f6d4f9aa2fa6c67fdbf9.resource
+    projectPath: Library\metadata\62\629eb04027f4f6d4f9aa2fa6c67fdbf9.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\65\653481118de774e2589a7b5ef398def8
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\65\653481118de774e2589a7b5ef398def8
+    projectPath: Library\metadata\65\653481118de774e2589a7b5ef398def8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\metadata\6c\6c30091ca99c6459b942f8dbc5a96280
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\6c\6c30091ca99c6459b942f8dbc5a96280
+    projectPath: Library\metadata\6c\6c30091ca99c6459b942f8dbc5a96280
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\metadata\72\72543109f17c645b0ae7555d3a0284c7
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\72\72543109f17c645b0ae7555d3a0284c7
+    projectPath: Library\metadata\72\72543109f17c645b0ae7555d3a0284c7
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\metadata\78\78a152797148f4540b5885062fdeb7a8
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\78\78a152797148f4540b5885062fdeb7a8
+    projectPath: Library\metadata\78\78a152797148f4540b5885062fdeb7a8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\metadata\7d\7daad2b5e601b4ae58ae8f3547b3ce40
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\7d\7daad2b5e601b4ae58ae8f3547b3ce40
+    projectPath: Library\metadata\7d\7daad2b5e601b4ae58ae8f3547b3ce40
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\metadata\7d\7dc11eadd5e662c419777feabaadb370
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\7d\7dc11eadd5e662c419777feabaadb370
+    projectPath: Library\metadata\7d\7dc11eadd5e662c419777feabaadb370
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\7d\7dc11eadd5e662c419777feabaadb370.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\7d\7dc11eadd5e662c419777feabaadb370.info
+    projectPath: Library\metadata\7d\7dc11eadd5e662c419777feabaadb370.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\7d\7dc11eadd5e662c419777feabaadb370.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\7d\7dc11eadd5e662c419777feabaadb370.resource
+    projectPath: Library\metadata\7d\7dc11eadd5e662c419777feabaadb370.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\94\94d9250c90a6521448879acb3688c023
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\94\94d9250c90a6521448879acb3688c023
+    projectPath: Library\metadata\94\94d9250c90a6521448879acb3688c023
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\94\94d9250c90a6521448879acb3688c023.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\94\94d9250c90a6521448879acb3688c023.info
+    projectPath: Library\metadata\94\94d9250c90a6521448879acb3688c023.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\94\94d9250c90a6521448879acb3688c023.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\94\94d9250c90a6521448879acb3688c023.resource
+    projectPath: Library\metadata\94\94d9250c90a6521448879acb3688c023.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+    projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
+    projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+    projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
+    projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+    projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+    projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\a9\a96cb6621c3f1c842b737896cb77a6aa
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\a9\a96cb6621c3f1c842b737896cb77a6aa
+    projectPath: Library\metadata\a9\a96cb6621c3f1c842b737896cb77a6aa
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\a9\a96cb6621c3f1c842b737896cb77a6aa.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\a9\a96cb6621c3f1c842b737896cb77a6aa.info
+    projectPath: Library\metadata\a9\a96cb6621c3f1c842b737896cb77a6aa.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\a9\a96cb6621c3f1c842b737896cb77a6aa.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\a9\a96cb6621c3f1c842b737896cb77a6aa.resource
+    projectPath: Library\metadata\a9\a96cb6621c3f1c842b737896cb77a6aa.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\aa\aa54a9f622807ff4db9186b4369a00b2
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\aa\aa54a9f622807ff4db9186b4369a00b2
+    projectPath: Library\metadata\aa\aa54a9f622807ff4db9186b4369a00b2
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\aa\aa54a9f622807ff4db9186b4369a00b2.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\aa\aa54a9f622807ff4db9186b4369a00b2.info
+    projectPath: Library\metadata\aa\aa54a9f622807ff4db9186b4369a00b2.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\aa\aa54a9f622807ff4db9186b4369a00b2.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\aa\aa54a9f622807ff4db9186b4369a00b2.resource
+    projectPath: Library\metadata\aa\aa54a9f622807ff4db9186b4369a00b2.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\b8\b87f2cbb002a649c1bfda9414d82cac2
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\b8\b87f2cbb002a649c1bfda9414d82cac2
+    projectPath: Library\metadata\b8\b87f2cbb002a649c1bfda9414d82cac2
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+    projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
+    projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\cc\cc2ec1493b95ad7478ca9d40497c4d47
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\cc\cc2ec1493b95ad7478ca9d40497c4d47
+    projectPath: Library\metadata\cc\cc2ec1493b95ad7478ca9d40497c4d47
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\cc\cc2ec1493b95ad7478ca9d40497c4d47.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\cc\cc2ec1493b95ad7478ca9d40497c4d47.info
+    projectPath: Library\metadata\cc\cc2ec1493b95ad7478ca9d40497c4d47.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\d2\d29802aac3b510143a0ce1cc6535a157
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\d2\d29802aac3b510143a0ce1cc6535a157
+    projectPath: Library\metadata\d2\d29802aac3b510143a0ce1cc6535a157
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\d2\d29802aac3b510143a0ce1cc6535a157.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\d2\d29802aac3b510143a0ce1cc6535a157.info
+    projectPath: Library\metadata\d2\d29802aac3b510143a0ce1cc6535a157.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\e7\e7bca088d7f81468fa46b1c194371e2d
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\e7\e7bca088d7f81468fa46b1c194371e2d
+    projectPath: Library\metadata\e7\e7bca088d7f81468fa46b1c194371e2d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\metadata\f2\f2473a0b65b3e524a9ebdef46c92d1dd
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\f2\f2473a0b65b3e524a9ebdef46c92d1dd
+    projectPath: Library\metadata\f2\f2473a0b65b3e524a9ebdef46c92d1dd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\f2\f2473a0b65b3e524a9ebdef46c92d1dd.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\f2\f2473a0b65b3e524a9ebdef46c92d1dd.info
+    projectPath: Library\metadata\f2\f2473a0b65b3e524a9ebdef46c92d1dd.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\f2\f2473a0b65b3e524a9ebdef46c92d1dd.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\f2\f2473a0b65b3e524a9ebdef46c92d1dd.resource
+    projectPath: Library\metadata\f2\f2473a0b65b3e524a9ebdef46c92d1dd.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\f5\f50f851dc827d514bae053ca957cc003
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\f5\f50f851dc827d514bae053ca957cc003
+    projectPath: Library\metadata\f5\f50f851dc827d514bae053ca957cc003
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\f5\f50f851dc827d514bae053ca957cc003.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\f5\f50f851dc827d514bae053ca957cc003.info
+    projectPath: Library\metadata\f5\f50f851dc827d514bae053ca957cc003.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\f5\f50f851dc827d514bae053ca957cc003.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\f5\f50f851dc827d514bae053ca957cc003.resource
+    projectPath: Library\metadata\f5\f50f851dc827d514bae053ca957cc003.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\f9\f9ed6f6b6f22589449b1a762440922e3
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\f9\f9ed6f6b6f22589449b1a762440922e3
+    projectPath: Library\metadata\f9\f9ed6f6b6f22589449b1a762440922e3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\f9\f9ed6f6b6f22589449b1a762440922e3.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\f9\f9ed6f6b6f22589449b1a762440922e3.info
+    projectPath: Library\metadata\f9\f9ed6f6b6f22589449b1a762440922e3.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\f9\f9ed6f6b6f22589449b1a762440922e3.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\f9\f9ed6f6b6f22589449b1a762440922e3.resource
+    projectPath: Library\metadata\f9\f9ed6f6b6f22589449b1a762440922e3.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+    projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
+    projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\ff\ff585b9ae06eca448af33b0db82c772f
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\ff\ff585b9ae06eca448af33b0db82c772f
+    projectPath: Library\metadata\ff\ff585b9ae06eca448af33b0db82c772f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\ff\ff585b9ae06eca448af33b0db82c772f.info
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\ff\ff585b9ae06eca448af33b0db82c772f.info
+    projectPath: Library\metadata\ff\ff585b9ae06eca448af33b0db82c772f.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\metadata\ff\ff585b9ae06eca448af33b0db82c772f.resource
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\metadata\ff\ff585b9ae06eca448af33b0db82c772f.resource
+    projectPath: Library\metadata\ff\ff585b9ae06eca448af33b0db82c772f.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: OrpheusGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\StateCache\Hierarchy\09e0e8-mainStage.json
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\StateCache\Hierarchy\09e0e8-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\09e0e8-mainStage.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Library\StateCache\SceneView\bbd9a2-mainStage.json
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Library\StateCache\SceneView\bbd9a2-mainStage.json
+    projectPath: Library\StateCache\SceneView\bbd9a2-mainStage.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\ProjectSettings\QualitySettings.asset
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: OrpheusGame\Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityLockfile
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-01b1d045e65c5a144a2e650232ec9d76
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-01b1d045e65c5a144a2e650232ec9d76
+    projectPath: Temp\UnityTempFile-01b1d045e65c5a144a2e650232ec9d76
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-0eea581e1665f1847974762a5a5779d4
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-0eea581e1665f1847974762a5a5779d4
+    projectPath: Temp\UnityTempFile-0eea581e1665f1847974762a5a5779d4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-122a283ac1180df4ab6567b3837133e9
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-122a283ac1180df4ab6567b3837133e9
+    projectPath: Temp\UnityTempFile-122a283ac1180df4ab6567b3837133e9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-156fb4ab0ae6f054b96ac29efdd05a72
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-156fb4ab0ae6f054b96ac29efdd05a72
+    projectPath: Temp\UnityTempFile-156fb4ab0ae6f054b96ac29efdd05a72
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-17adb053873e9444db041bb8d7b469fa
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-17adb053873e9444db041bb8d7b469fa
+    projectPath: Temp\UnityTempFile-17adb053873e9444db041bb8d7b469fa
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-198d63356e8ad554496cc604c4bde79d
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-198d63356e8ad554496cc604c4bde79d
+    projectPath: Temp\UnityTempFile-198d63356e8ad554496cc604c4bde79d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-19a5834d6a506fa41bd484a72a55a4cb
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-19a5834d6a506fa41bd484a72a55a4cb
+    projectPath: Temp\UnityTempFile-19a5834d6a506fa41bd484a72a55a4cb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-1a99545a94c326a4cb78eaddfb15b8a4
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-1a99545a94c326a4cb78eaddfb15b8a4
+    projectPath: Temp\UnityTempFile-1a99545a94c326a4cb78eaddfb15b8a4
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-1c682cc0d8522964cbbc513aef3693f1
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-1c682cc0d8522964cbbc513aef3693f1
+    projectPath: Temp\UnityTempFile-1c682cc0d8522964cbbc513aef3693f1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-2009987dcd04ee44b9a3466c8cdc62a1
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-2009987dcd04ee44b9a3466c8cdc62a1
+    projectPath: Temp\UnityTempFile-2009987dcd04ee44b9a3466c8cdc62a1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-306e55ec77c214f41b5425121b0198ed
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-306e55ec77c214f41b5425121b0198ed
+    projectPath: Temp\UnityTempFile-306e55ec77c214f41b5425121b0198ed
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-31cb827dd12eeea45a9d7584cd955064
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-31cb827dd12eeea45a9d7584cd955064
+    projectPath: Temp\UnityTempFile-31cb827dd12eeea45a9d7584cd955064
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-36133ebab63d62d4daff310554bc1f3c
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-36133ebab63d62d4daff310554bc1f3c
+    projectPath: Temp\UnityTempFile-36133ebab63d62d4daff310554bc1f3c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-3d327f023632788448d393f41b86821a
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-3d327f023632788448d393f41b86821a
+    projectPath: Temp\UnityTempFile-3d327f023632788448d393f41b86821a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-4934187f8d336684bbacf6f2af897403
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-4934187f8d336684bbacf6f2af897403
+    projectPath: Temp\UnityTempFile-4934187f8d336684bbacf6f2af897403
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-4b0ba790eda42564cb839cc4eb3db39f
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-4b0ba790eda42564cb839cc4eb3db39f
+    projectPath: Temp\UnityTempFile-4b0ba790eda42564cb839cc4eb3db39f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-5404b22a7d8ac0343984c054b0091eaf
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-5404b22a7d8ac0343984c054b0091eaf
+    projectPath: Temp\UnityTempFile-5404b22a7d8ac0343984c054b0091eaf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-55a4435a703527449904c215713d13d3
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-55a4435a703527449904c215713d13d3
+    projectPath: Temp\UnityTempFile-55a4435a703527449904c215713d13d3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-5872fc09b9a04f1459d8e728e3815e3a
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-5872fc09b9a04f1459d8e728e3815e3a
+    projectPath: Temp\UnityTempFile-5872fc09b9a04f1459d8e728e3815e3a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-5b25cad393a52e442b99ebcaf9ba93bf
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-5b25cad393a52e442b99ebcaf9ba93bf
+    projectPath: Temp\UnityTempFile-5b25cad393a52e442b99ebcaf9ba93bf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-5b5fe5f8aa27b6a42874bda2d5692245
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-5b5fe5f8aa27b6a42874bda2d5692245
+    projectPath: Temp\UnityTempFile-5b5fe5f8aa27b6a42874bda2d5692245
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-774f7e49e458bab4793451bb4cc83e07
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-774f7e49e458bab4793451bb4cc83e07
+    projectPath: Temp\UnityTempFile-774f7e49e458bab4793451bb4cc83e07
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-776ed910568e44a42834570127958075
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-776ed910568e44a42834570127958075
+    projectPath: Temp\UnityTempFile-776ed910568e44a42834570127958075
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-7b22608de8ccf0e4ab9d25196ba3f502
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-7b22608de8ccf0e4ab9d25196ba3f502
+    projectPath: Temp\UnityTempFile-7b22608de8ccf0e4ab9d25196ba3f502
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-85fd07872825fcd47b526ebfb9cb8ea1
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-85fd07872825fcd47b526ebfb9cb8ea1
+    projectPath: Temp\UnityTempFile-85fd07872825fcd47b526ebfb9cb8ea1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-8fb2d080a5bdb6d4a89e42cc3f8ce530
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-8fb2d080a5bdb6d4a89e42cc3f8ce530
+    projectPath: Temp\UnityTempFile-8fb2d080a5bdb6d4a89e42cc3f8ce530
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-92e99644908038542b3b15b40db260b8
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-92e99644908038542b3b15b40db260b8
+    projectPath: Temp\UnityTempFile-92e99644908038542b3b15b40db260b8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-96cdecce1fb5640409d8e16be17a8117
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-96cdecce1fb5640409d8e16be17a8117
+    projectPath: Temp\UnityTempFile-96cdecce1fb5640409d8e16be17a8117
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-9f2b3077e521c3a4ab577390346f47fb
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-9f2b3077e521c3a4ab577390346f47fb
+    projectPath: Temp\UnityTempFile-9f2b3077e521c3a4ab577390346f47fb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-a23f2a73ec0b8b34a9a1b8828a742d87
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-a23f2a73ec0b8b34a9a1b8828a742d87
+    projectPath: Temp\UnityTempFile-a23f2a73ec0b8b34a9a1b8828a742d87
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-a5c22f9c2bd6b964291b0ab882fb4d0b
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-a5c22f9c2bd6b964291b0ab882fb4d0b
+    projectPath: Temp\UnityTempFile-a5c22f9c2bd6b964291b0ab882fb4d0b
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-a5dc542932d8bc543b1f48d0997581bd
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-a5dc542932d8bc543b1f48d0997581bd
+    projectPath: Temp\UnityTempFile-a5dc542932d8bc543b1f48d0997581bd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-b91f2461d1b3c1448b1f4beb20f73e2a
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-b91f2461d1b3c1448b1f4beb20f73e2a
+    projectPath: Temp\UnityTempFile-b91f2461d1b3c1448b1f4beb20f73e2a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-b93e0f61b39261d4ca411ef5867268d8
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-b93e0f61b39261d4ca411ef5867268d8
+    projectPath: Temp\UnityTempFile-b93e0f61b39261d4ca411ef5867268d8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-c0920481de57a3441b906875c3960f57
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-c0920481de57a3441b906875c3960f57
+    projectPath: Temp\UnityTempFile-c0920481de57a3441b906875c3960f57
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-c419c3944a81b2b4d9445932b1b25168
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-c419c3944a81b2b4d9445932b1b25168
+    projectPath: Temp\UnityTempFile-c419c3944a81b2b4d9445932b1b25168
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-cf3a2e4ec0bff9c4f8e3f5dfa6b2818c
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-cf3a2e4ec0bff9c4f8e3f5dfa6b2818c
+    projectPath: Temp\UnityTempFile-cf3a2e4ec0bff9c4f8e3f5dfa6b2818c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-d23782a76ac4ff2448b085c72fdfdf05
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-d23782a76ac4ff2448b085c72fdfdf05
+    projectPath: Temp\UnityTempFile-d23782a76ac4ff2448b085c72fdfdf05
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-d8142732bc86fe347863eed13a3f61c1
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-d8142732bc86fe347863eed13a3f61c1
+    projectPath: Temp\UnityTempFile-d8142732bc86fe347863eed13a3f61c1
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-df502829faca6814abc31012a8c40539
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-df502829faca6814abc31012a8c40539
+    projectPath: Temp\UnityTempFile-df502829faca6814abc31012a8c40539
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-e2e30748f51c7ae45b1b6a900646f732
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-e2e30748f51c7ae45b1b6a900646f732
+    projectPath: Temp\UnityTempFile-e2e30748f51c7ae45b1b6a900646f732
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-e9e6fdf0656b81045baf3b9a160e1e95
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-e9e6fdf0656b81045baf3b9a160e1e95
+    projectPath: Temp\UnityTempFile-e9e6fdf0656b81045baf3b9a160e1e95
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-ee2b49b2400a88344a41365535a66537
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-ee2b49b2400a88344a41365535a66537
+    projectPath: Temp\UnityTempFile-ee2b49b2400a88344a41365535a66537
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-f2b75bda30b487f4bb125c4728fa64a0
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-f2b75bda30b487f4bb125c4728fa64a0
+    projectPath: Temp\UnityTempFile-f2b75bda30b487f4bb125c4728fa64a0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-f9c8187109a5da94ba004e65af68c235
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-f9c8187109a5da94ba004e65af68c235
+    projectPath: Temp\UnityTempFile-f9c8187109a5da94ba004e65af68c235
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: OrpheusGame\Temp\UnityTempFile-fd045379de46a8743aa12fbfd25772bc
+    fullPath: C:\Users\hdm21\Desktop\github\Orpheus\OrpheusGame\Temp\UnityTempFile-fd045379de46a8743aa12fbfd25772bc
+    projectPath: Temp\UnityTempFile-fd045379de46a8743aa12fbfd25772bc
+    originalPath: 
+    status: 1
+    staged: 0

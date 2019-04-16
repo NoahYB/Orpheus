@@ -9,37 +9,36 @@ public class PlayerController : MonoBehaviour
     public Vector3 jump;
     public float timeToJumpApex;
     public float gravity;
-    public float dashDownVelocity =  -10f;
+    public float dashDownVelocity;
     Vector3 velocity;
-    public float jumpVelocity = 2.0f;
+    public float jumpVelocity;
     public float moveSpeed;
     public float t;
-    Rigidbody2D rb;
 
     public bool isGrounded;
-    public bool doubleJumped;
+    public int jumpCount;
 
     public Collider2D playerCollider;
     public LayerMask ground;
-    public Animator animator;
+    public Animator anim;
     float initX;
-    MathManager controller;
+    MathManager mathM;
     // Start is called before the first frame update
     void Start()
     {
         t = Globals.tempo/80;
-        controller = GetComponent <MathManager>();
+        mathM = GetComponent <MathManager>();
         jumpVelocity = gravity * timeToJumpApex;
-        animator = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         playerCollider = GetComponent<Collider2D>();
-        animator.SetBool("isWalking", true);
+        anim.SetBool("isWalking", true);
     }
     public void Jump()
     {
-        if (isGrounded || !doubleJumped)
+        if (isGrounded || jumpCount < 2)
         {
             velocity.y = jumpVelocity;
-            doubleJumped= !isGrounded;
+            jumpCount++;
         }
     }
     public void DashDown()
@@ -49,17 +48,21 @@ public class PlayerController : MonoBehaviour
 
     private void CheckGrounded()
     {
-        
+        isGrounded = mathM.collisions.below;
+        if (isGrounded)
+        {
+            jumpCount = 0;
+        }
     }
 
-        void Update()
+    void Update()
     {
         t = Globals.tempo / 80;
 
         velocity.x = moveSpeed * t;
         velocity.y += ((gravity * -1) * Time.deltaTime);
 
-        if (controller.collisions.above || controller.collisions.below)
+        if (mathM.collisions.above || mathM.collisions.below)
         {
             velocity.y = 0;
         }
@@ -73,12 +76,12 @@ public class PlayerController : MonoBehaviour
 
         CheckGrounded();
 
-        controller.Move(velocity);
+        mathM.Move(velocity);
 
         if (Input.GetKeyDown(KeyCode.N))
         {
             Debug.Log("isGrounded: " + isGrounded);
-            Debug.Log("doubleJumped: " + doubleJumped);
+            Debug.Log("jumpCount: " + jumpCount);
         }
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-[RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(CapsuleCollider2D))]
 
 public class MathManager : MonoBehaviour
 {
@@ -10,7 +10,6 @@ public class MathManager : MonoBehaviour
     public LayerMask collisionMask;
     // for gravity calculations
     public bool isGrounded;
-
 
     // ray calculations
     // skin offset
@@ -21,19 +20,10 @@ public class MathManager : MonoBehaviour
     float horizontalRaySpacing;
     float verticalRaySpacing;
 
-    BoxCollider2D collide;
+    CapsuleCollider2D collide;
     RaycastOrigins raycastOrigins;
 
     public CollisionInfo collisions;
-    public GameObject bullet;
-
-    public void fire(Vector2 velocity)
-    {
-        GameObject gOBullet = Instantiate(bullet);
-        gOBullet.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-
-
-    }
 
     void CalculateRaySpacing()
     {
@@ -45,7 +35,6 @@ public class MathManager : MonoBehaviour
 
         horizontalRaySpacing = bounds.size.y / (horizontalRayCount - 1);
         verticalRaySpacing = bounds.size.x / (verticalRayCount - 1);
-
     }
 
     // names for classes in program and outside of program shorthand
@@ -54,11 +43,10 @@ public class MathManager : MonoBehaviour
     {
 
         player = GetComponent<PlayerController>();
-        collide = GetComponent<BoxCollider2D>();
+        collide = GetComponent<CapsuleCollider2D>();
 
         CalculateRaySpacing();
     }
-
 
     public void Move(Vector3 velocity)
     {
@@ -76,9 +64,8 @@ public class MathManager : MonoBehaviour
 
 
         transform.Translate(velocity);
-
-
     }
+
     void UpdateRaycastOrigins()
     {
         Bounds bounds = collide.bounds;
@@ -94,6 +81,7 @@ public class MathManager : MonoBehaviour
         public Vector2 topLeft, topRight;
         public Vector2 bottomLeft, bottomRight;
     }
+
     void verticalCollisions(ref Vector3 velocity)
     {
         float directionY = Mathf.Sign(velocity.y);
@@ -117,8 +105,8 @@ public class MathManager : MonoBehaviour
                 collisions.above = directionY == 1;
             }
         }
-
     }
+
     void horizontalCollisions(ref Vector3 velocity)
     {
         float directionX = Mathf.Sign(velocity.x);
@@ -139,8 +127,8 @@ public class MathManager : MonoBehaviour
                 collisions.right = directionX == 1;
             }
         }
-
     }
+
     public struct CollisionInfo
     {
         public bool above, below;
@@ -152,13 +140,4 @@ public class MathManager : MonoBehaviour
             left = right = false;
         }
     }
-    public void Respawn()
-    {
-
-    }
 }
-
-
-
-
-

@@ -24,6 +24,7 @@ public class Globals : MonoBehaviour
     }
     public string musicKey = "c_major";
     public static int tempo = 80;
+    public static bool playingPerc;
 
     public bool streamerMode = false;
 }

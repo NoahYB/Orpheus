@@ -16,8 +16,12 @@ public class ChordController : MonoBehaviour
     public AudioClip chord5;
     public AudioClip chord6;
     public AudioClip chord7;
+    public AudioClip chord8;
+    public AudioClip perc1;
+    public AudioClip perc2;
     List<AudioClip> listOfChords = new List<AudioClip>();
-    public AudioSource audioSource;
+    public AudioSource chordPlayer;
+    public AudioSource percPlayer;
 
     int indexForChord = 0;
     GameObject initChordImage;
@@ -25,9 +29,14 @@ public class ChordController : MonoBehaviour
     List<GameObject> chordImageLists;
     void playChord(int index)
     {
-
-        audioSource.clip = listOfChords[index];
-        audioSource.Play();
+        chordPlayer.Stop();
+        chordPlayer.clip = listOfChords[index];
+        chordPlayer.Play();
+    }
+    void playPerc()
+    {
+        percPlayer.Stop();
+        percPlayer.Play();
     }
     public void Start()
     {
@@ -39,6 +48,7 @@ public class ChordController : MonoBehaviour
         listOfChords.Add(chord5);
         listOfChords.Add(chord6);
         listOfChords.Add(chord7);
+        listOfChords.Add(chord8);
 
         chordImageLists = new List<GameObject>();
 
@@ -52,11 +62,15 @@ public class ChordController : MonoBehaviour
     public void Update()
     {
         if(chordImageLists[indexForChord].transform.position.x-width/2 <= player.transform.position.x
-        && (chordImageLists[indexForChord].transform.position.x-width/2 > player.transform.position.x-.3f))
+        && (chordImageLists[indexForChord].transform.position.x-width/2 > player.transform.position.x - (.3f * (Globals.tempo / 80))))
         {
             int randInt = Random.Range(0, 6);
 
             playChord(randInt);
+            if (Globals.playingPerc)
+            {
+                playPerc();
+            }
         }
         if (chordImageLists.Count > 5)
         {

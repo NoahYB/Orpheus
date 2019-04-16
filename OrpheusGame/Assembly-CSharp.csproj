@@ -64,10 +64,12 @@
     <Compile Include="Assets\Scripts\ChordController.cs" />
     <Compile Include="Assets\Scripts\Globals.cs" />
     <Compile Include="Assets\Scripts\MathManager.cs" />
+    <Compile Include="Assets\Scripts\MonsterSpawner.cs" />
     <Compile Include="Assets\Scripts\NoteHandler.cs" />
     <Compile Include="Assets\Scripts\PlatformGenerator.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Secrets.cs" />
+    <Compile Include="Assets\Scripts\SkeletonController.cs" />
     <Compile Include="Assets\Scripts\SoundInfo.cs" />
     <Compile Include="Assets\Scripts\TwitchAPI.cs" />
     <Compile Include="Assets\Scripts\TwitchClient.cs" />
